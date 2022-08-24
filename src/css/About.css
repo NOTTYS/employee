@@ -1,0 +1,21 @@
+.preview {
+    background-color: #D9D9D9;
+    width: 110px;
+}
+
+.description {
+    background-color: #D9D9D9;
+    width: 130px;
+}
+
+.btnSave {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    background-color: #8FE3CF;
+}
+
+.btnSave:hover {
+    background-color: green;
+}

@@ -1,0 +1,21 @@
+thead {
+    background-color: #B9C4DC;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #B9C4DC66;
+  }
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.eventText {
+    margin-right: 240px;
+}

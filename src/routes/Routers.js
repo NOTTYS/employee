@@ -11,21 +11,19 @@ import AddPeriod from '../views/admin/AddPeriod'
 import AddRandom from '../views/admin/AddRandom'
 import AddPrize from '../views/admin/AddPrize'
 import AddUser from '../views/admin/Adduser'
+import BannerManagement from '../Components/BannerManagement'
+import EventManagement from '../Components/EventManagement'
+import CreaeEvent from '../Components/Create/CreateEvent'
+import AboutManagement from '../Components/AboutManagement'
 
 const Routers = () => {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/period' element={<PeriodList />} />
-        <Route path='/random-list' element={<RandomList />} />
-        <Route path='/winner-list' element={<WinnerList />} />
-        <Route path='/prize' element={<PrizeList />} />
-        <Route path='/user' element={<User />} />
-        <Route path='/add-period' element={<AddPeriod />} />
-        <Route path='/add-random' element={<AddRandom />} />
-        <Route path='/add-prize' element={<AddPrize />} />
-        <Route path='/add-user' element={<AddUser />} />
+        <Route path='/BannerManage' element={<BannerManagement/>} />
+        <Route path='/EventManagement' element={<EventManagement />} />
+        <Route path='/AboutManagement' element={<AboutManagement />} />
+        <Route path='/CreateEVent' element={<CreaeEvent />} />
         <Route path="/*" element={<Navigate to="/404" />} />
         <Route path='/404' element={<PageNotFond />} />
       </Routes>

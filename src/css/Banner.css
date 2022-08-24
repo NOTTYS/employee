@@ -1,0 +1,23 @@
+thead {
+    background-color: #D9D9D9;
+}
+
+th {
+    font-weight: bold;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttonSave {
+    background-color: #8FE3CF;
+    border: none;
+    color: white;
+}
+
+.buttonSave:hover {
+    background-color: green;
+}
